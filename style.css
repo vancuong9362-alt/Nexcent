@@ -102,7 +102,7 @@ button {
   padding: 14px 32px;
   border-radius: 4px;
   margin-top: 10px;
-  border: none ;
+  border: none;
 }
 /* .cham_c{
     display: flex;
@@ -189,5 +189,25 @@ button {
 .our_4 img {
   width: 65px;
   height: 56px;
+  margin: auto;
+}
+.f1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+.f2 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.frame-inner img {
+  width: 442px;
+  height: 433px;
+}
+
+.frame-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: calc(100% - 288px);
   margin: auto;
 }
