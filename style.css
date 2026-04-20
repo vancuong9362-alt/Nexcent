@@ -102,7 +102,7 @@ button {
   padding: 14px 32px;
   border-radius: 4px;
   margin-top: 10px;
-  border: none ;
+  border: none;
 }
 /* .cham_c{
     display: flex;
@@ -196,4 +196,33 @@ button {
   align-items: center;
   padding: 40px 20px;
   text-align: center;
+}
+.f1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+.f2 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 16px;
+}
+.frame-inner img {
+  width: 442px;
+  height: 433px;
+}
+
+.frame-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: calc(100% - 288px);
+  margin: auto;
+}
+.box1{
+  width: 661px;
+  height: 268px;
+  gap: 32px;
+}
+button.f3{
+  margin-top: 32px;
 }
