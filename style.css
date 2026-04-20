@@ -198,6 +198,7 @@ button {
 .f2 {
   font-size: 14px;
   line-height: 20px;
+  margin-top: 16px;
 }
 .frame-inner img {
   width: 442px;
@@ -210,4 +211,12 @@ button {
   align-items: center;
   max-width: calc(100% - 288px);
   margin: auto;
+}
+.box1{
+  width: 661px;
+  height: 268px;
+  gap: 32px;
+}
+button.f3{
+  margin-top: 32px;
 }
