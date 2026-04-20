@@ -189,5 +189,11 @@ button {
 .our_4 img {
   width: 65px;
   height: 56px;
-  margin: auto;
+}
+.manage .our_4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
 }
