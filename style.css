@@ -226,3 +226,53 @@ button {
 button.f3{
   margin-top: 32px;
 }
+.Achivements_left h1{
+  font-size: 36px;
+  line-height: 44px;
+}
+.Achivements_left span{
+  color: #4caf4f;
+}
+.Achivements_left p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #18191F;
+}
+.Achivements_logobox img{
+  width: 48px;
+  height: 48px;
+  padding-right: 10px;
+}
+.Achivements_right h1{
+  font-size: 28px;
+  line-height: 36px;
+  color: #4D4D4D;
+}
+.Achivements_right p{
+  font-size: 16px;
+  line-height: 1px;
+  color: #717171;
+}
+.Achivements_right{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  align-items: center;  
+}
+.Achivements_logobox{
+  display: flex;
+  align-items: center;
+  padding: 30px 40px;
+  gap: 6px;
+}
+.Achivements{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: calc(100% - 288px);
+}
+.Achivements_backroud{
+  background-color: #F5F7FA;
+}
+
