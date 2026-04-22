@@ -197,11 +197,12 @@ button {
   padding: 40px 20px;
   text-align: center;
 }
-.f1 {
+.box1 h1 {
   font-size: 36px;
   line-height: 44px;
+  color: var(--gray-color);
 }
-.f2 {
+.box1 p {
   font-size: 14px;
   line-height: 20px;
   margin-top: 16px;
@@ -223,7 +224,7 @@ button {
   height: 268px;
   gap: 32px;
 }
-button.f3 {
+.box1 button {
   margin-top: 32px;
 }
 .Achivements_left h1 {
@@ -275,4 +276,44 @@ button.f3 {
 .Achivements_backroud {
   background-color: #f5f7fa;
 }
-  
+.customer img {
+  width: 326px;
+  height: 326px;
+}
+.customer-frame img {
+  width: 40px;
+  height: 40px;
+}
+
+.customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: calc(100% - 288px);
+  gap: 130px;
+  padding-top: 40px;
+}
+.customer-banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 41px;
+  padding-top: 32px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--green-color);
+}
+.customer-text p {
+}
+.customer-text h3 {
+  padding-top: 16px;
+}
+.customer-text {
+  padding-bottom: 8px;
+}
+.customer-background {
+  background-color: #f5f7fa;
+}
