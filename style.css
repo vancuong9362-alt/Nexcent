@@ -317,3 +317,62 @@ h3 {
 .customer-background {
   background-color: #f5f7fa;
 }
+
+.marketing h1 {
+  font-size: 36px;
+  line-height: 44px;
+  color: var(--gray-color);
+}
+.marketing p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+}
+.text-marketing {
+  text-align: center;
+}
+.marketing img {
+  width: 368px;
+  height: 286px;
+  display: block;
+}
+.textbox1 h3 {
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 16px;
+  color: #717171;
+}
+.textbox1 a {
+  font-size: 20px;
+  line-height: 28px;
+  color: #4caf4f;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 0;
+}
+
+.textbox1 {
+  position: relative;
+  top: -120px;
+  background: red;
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #f5f7fa;
+}
+.imgbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 40px auto;
+  max-width: calc(100% - 288px);
+  gap: 24px;
+}
+.imgbox1 {
+  display: flex; /* Biến chính nó thành Flex cha để quản lý ảnh & text */
+  flex-direction: column; /* Xếp ảnh ở trên, text ở dưới theo chiều dọc */
+  align-items: center; /* CỰC QUAN TRỌNG: Căn ảnh và text vào chính giữa cột */
+  width: 368px; /* Chiều rộng bằng đúng kích thước ảnh */
+  position: relative; /* Làm điểm mốc cho các phần tử con dịch chuyển */
+}
