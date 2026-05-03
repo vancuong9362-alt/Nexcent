@@ -376,3 +376,91 @@ h3 {
   width: 368px; /* Chiều rộng bằng đúng kích thước ảnh */
   position: relative; /* Làm điểm mốc cho các phần tử con dịch chuyển */
 }
+.footer-bootom{
+  background-color: #263238;
+}
+.footer-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+
+}
+.footer-left {
+  display: flex;
+  gap: 40px; /* Khoảng cách giữa các khối nội dung */
+}
+.footertext1 h1 {
+  font-size: 64px;
+  line-height: 76px;
+  color: #263238;
+}
+.footertext1{
+  text-align: center;
+  background-color: #F5F7FA;
+  padding: 32px;
+}
+.logo-footer img{
+  width: 191px;
+  height: 29.67px;
+}
+.icon-mxh img{
+  width: 32px;
+  height: 32px;
+}
+.footer-left {
+  display: flex;
+  gap: 40px;
+}
+.icon-mxh{
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+.footer-right {
+  display: flex;
+  gap: 80px; /* Khoảng cách giữa các cột Company, Support, Stay up to date */
+}
+.footer-right h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #F5F7FA;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-right ul li {
+  margin-bottom: 12px;
+}
+
+.footer-right ul li a {
+  color: #F5F7FA;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.footer-right ul li a:hover {
+  color: #4CAF4F;
+}
+.email-box {
+  position: relative;
+  width: 255px;
+}
+.email-box input {
+  width: 100%;
+  padding: 10px 40px 10px 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 8px;
+  color: #FFFFFF;
+  outline: none;
+}
+.copyright{
+  padding: 10px;
+}
